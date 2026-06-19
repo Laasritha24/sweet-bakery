@@ -3,19 +3,37 @@
 <head>
     <title>Sweet Bakery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            
+            /* Add your background image here */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('bakery-bg.jpg');
+            
+            /* Settings to make the image look great */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 
-<body style="font-family:Arial, sans-serif;">
+<body>
 
-    <!-- Logo -->
-    <div style="text-align:center;">
+    <!-- Header Section (Logo and Name on the Left) -->
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+        <!-- Logo -->
         <img src="logo.png" width="120" alt="Sweet Bakery Logo">
+        
+        <!-- Website Name -->
+        <h1 style="color:brown; margin: 0;">Sweet Bakery</h1>
     </div>
 
-    <!-- Website Name -->
-    <h1 style="text-align:center;color:brown;">Sweet Bakery</h1>
-
-    <!-- Navigation Menu -->
+    <!-- Navigation Menu (Centered for clean design) -->
     <div style="text-align:center;">
         <a href="index.html">Home</a> |
         <a href="about.html">About Us</a> |
