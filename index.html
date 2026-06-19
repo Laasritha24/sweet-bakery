@@ -9,15 +9,15 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            
-            /* Add your background image here */
-            background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('bakery-bg.jpg');
-            
-            /* Settings to make the image look great */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-color: #fdf5e6; /* A soft, warm cream background */
+        }
+        .hero-banner {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
     </style>
 </head>
@@ -26,14 +26,11 @@
 
     <!-- Header Section (Logo and Name on the Left) -->
     <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-        <!-- Logo -->
         <img src="logo.png" width="120" alt="Sweet Bakery Logo">
-        
-        <!-- Website Name -->
         <h1 style="color:brown; margin: 0;">Sweet Bakery</h1>
     </div>
 
-    <!-- Navigation Menu (Centered for clean design) -->
+    <!-- Navigation Menu -->
     <div style="text-align:center;">
         <a href="index.html">Home</a> |
         <a href="about.html">About Us</a> |
@@ -43,9 +40,11 @@
 
     <hr>
 
+    <!-- Beautiful Hero Image Asset -->
+    <img src="bakery-bg.png" class="hero-banner" alt="Sweet Bakery Banner">
+
     <!-- Welcome Section -->
     <h2>Welcome to Sweet Bakery</h2>
-
     <p style="font-size:18px;">
         At Sweet Bakery, we offer freshly baked cakes, cupcakes,
         cookies, pastries, and breads made with premium ingredients.
@@ -55,33 +54,27 @@
 
     <!-- Products -->
     <h2 style="text-align:center;">Our Products</h2>
-
     <div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
-
         <div style="text-align:center;">
             <img src="cupcake.png" width="250" height="200" alt="Cupcake">
             <h3>Chocolate Cupcake</h3>
             <p>₹99</p>
         </div>
-
         <div style="text-align:center;">
             <img src="redvelvet.png" width="250" height="200" alt="Red Velvet Cake">
             <h3>Red Velvet Cake</h3>
             <p>₹499</p>
         </div>
-
         <div style="text-align:center;">
             <img src="cookies.png" width="250" height="200" alt="Cookies">
             <h3>Cookies</h3>
             <p>₹149</p>
         </div>
-
         <div style="text-align:center;">
             <img src="bread.png" width="250" height="200" alt="Bread">
             <h3>Fresh Bread</h3>
             <p>₹79</p>
         </div>
-
     </div>
 
     <hr>
